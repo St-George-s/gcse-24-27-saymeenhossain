@@ -44,7 +44,14 @@
 #     total = total + age
 #     print(total)
 
-# Question 10
-for counter1 in range(1,13):
-    for counter2 in range(1,13):
-        print(counter1, " X ", counter2, " = ", counter1 * counter2) 
+# # Question 10
+# for counter1 in range(1,13):
+#     for counter2 in range(1,13):
+#         print(counter1, " X ", counter2, " = ", counter1 * counter2) 
+
+# Extention Activity
+timesTable = int(input("Which timetables?: "))
+howFar = int(input("How far?: "))
+
+for counter in range(1,howFar+1):
+    print(counter * timesTable)
