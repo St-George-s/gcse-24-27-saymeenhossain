@@ -26,3 +26,19 @@ password = input("What is your password?: ")
 while len(password) < 5:
     password = input("AGAIN, What is your password?: ") 
 print("Password accepted") 
+
+#Question 15
+anotherEpisode = input("Would you like to watch another?")
+while anotherEpisode == "yes":
+    print ("Playing another")
+    anotherEpisode = input("Would you like to watch another?")
+
+print("Good, go to bed :)")
+
+#Question 16
+money = input("Enter amount of money: ")
+while int(money) >100:
+    money = money + int(input("Enter amount of money: "))
+
+print("I accept your offer")
+print("You gave me," money)
