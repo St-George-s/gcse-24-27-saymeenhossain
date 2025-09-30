@@ -1,13 +1,13 @@
-#Question 1
-age = int(input("Enter an age: "))
-if age > 18: 
-    print("You are eligible to watch 18-rated movies")
-else:
-    print("You are not eligible to watch 18-rated movies")
-#Question 2
-age = int(input("Enter an age: "))
-if age > 18:
-    print("You can watch 18-rated movies")
-if age < 15:
-    print("You can watch 15-rated movies")
-if age 
+# #Question 1
+# temperature = int(input("Enter the temperature: "))
+# weather = input("Is it sunny: ")
+# if temperature > 15 and weather == "yes":
+#     print("WOAH, ITS A SWARM OF HEAT!!!")
+
+# #Question 2
+# temperature = int(input("Enter the temperature: "))
+# weather = input("Is it raining: ")
+# if temperature < 15 and weather == "yes":
+#     print("WOAH, ITS POURING HEAVILY!!!")
+
+#Question 3
