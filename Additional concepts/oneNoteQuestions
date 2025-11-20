@@ -25,12 +25,11 @@
 # print(myRandom)
 
 # 7. Roll two dice (1–6) and print both values and their total using + string concatenation. 
-import random 
-myFirstDice = random.randint(1, 6)
-mySecondDice = random.randint(1, 6)
-print(str(myFirstDice) + "+" + str(mySecondDice)+ "=")
-print(str(myFirstDice + mySecondDice))
+# import random 
+# myFirstDice = random.randint(1, 6)
+# mySecondDice = random.randint(1, 6)
+# print(str(myFirstDice) + "+" + str(mySecondDice)+ "=")
+# print(str(myFirstDice + mySecondDice))
 
 # 8. Given the list below, use a random integer to select a valid index and print the item at that index. 
 # animals = ["otter", "red squirrel", "pine marten", "seal", "oystercatcher"] 
- 
