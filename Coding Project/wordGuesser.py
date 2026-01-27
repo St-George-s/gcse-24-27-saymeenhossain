@@ -5,18 +5,31 @@ words = ["apple", "banana", "grape", "strawberry", "mango", "blueberries", "avoc
 randNum = random.randint(0,6)
 #print(randNum)
 selectedWord = words[randNum]
-print(selectedWord)
+#print(selectedWord)
 
-userLetter = input("Enter a letter: ")
+userLetter = ""
 lettersGuessed.append(userLetter)
 
 
-found = False
-for i in range(len(selectedWord)):
-    if selectedWord[i] == userLetter:
-        found = True
+blankWord = ""
+for x in range (len(selectedWord)):
+    blankWord = blankWord + "_"
+#print(blankWord)
 
-if found:
-    print("letter found")
-else:
-    print("letter not found")
+while selectedWord != blankWord: 
+    userLetter = input("Enter a letter: ")
+    found = False
+    for i in range(len(selectedWord)):
+        if selectedWord[i] == userLetter:
+            found = True
+            #print(i)
+            blankWord = blankWord[:i] + userLetter + blankWord[i+1:]
+    print(blankWord)
+    # if found:
+    #     print("letter found")
+    # else:
+    #     print("letter not found")
+
+
+print ("WORD GUESSED HORAAYYYYYYYY!!!!")
+
