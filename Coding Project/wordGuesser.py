@@ -30,6 +30,4 @@ while selectedWord != blankWord:
     # else:
     #     print("letter not found")
 
-
 print ("WORD GUESSED HORAAYYYYYYYY!!!!")
-
