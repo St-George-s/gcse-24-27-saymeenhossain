@@ -41,3 +41,21 @@ Makes it easier to spot errors in the code
 
 
 # Question 4 - Writing a Function
+
+def sphere_volume(radius):
+    volume = 4/3 * 3.14 * radius**3
+    return volume
+
+radius = int(input("Enter radius: "))
+print(sphere_volume(radius))
+
+# Question 5 - Calling the Function
+
+def sphere_volume(radius):
+    volume = 4/3 * 3.14 * radius**3
+    return volume
+
+volume = sphere_volume(5)
+print(volume)
+
+# Question 6 - Linear Search Function
