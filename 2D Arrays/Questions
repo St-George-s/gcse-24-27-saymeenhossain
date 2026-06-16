@@ -1,0 +1,28 @@
+4)
+
+marks =[
+    [45, 67, 72, 60],
+    [55, 70, 68, 90],
+    [40, 65, 50, 80]
+]
+
+for i in range(4):
+    print(marks[0][1])
+
+5)
+
+temps = [
+    [12, 15, 18],
+    [10, 16, 14],
+    [13, 17, 19],
+    [11, 14, 16],
+    [15, 18, 20]
+]
+
+hTemp = temps [0][0]
+for r in range(5):
+    for c in range(3):
+        if temps[r][c] > hTemp:
+            hTemp = temps[r][c]
+
+print("Highest is:", hTemp)
